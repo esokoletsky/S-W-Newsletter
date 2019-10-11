@@ -58,7 +58,7 @@
       float: left;
       width: 60px;
       height: 70px;
-      border: #000 2px solid;
+      border: #888 2px solid;
       border-radius: 50%;
     }
 
@@ -66,8 +66,42 @@
       float: right;
       width: 60px;
       height: 70px;
-      border: #000 2px solid;
+      border: #888 2px solid;
       border-radius: 50%;
+    }
+
+    .circle {
+      width: 150px;
+      height: 165px;
+      border: #888 2px solid;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    .float-left {
+      float: left;
+    }
+
+    .food-fact {
+      width: 125px;
+      border: #000 1px solid;
+      float: left;
+    }
+
+    .container1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 572px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .container2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 572px;
+      text-align: center;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -279,30 +313,6 @@
                       </td>
                       <td align="center" valign="top" style="background-color:#000; width:2px;"></td>
                       <td align="center" valign="top">
-                        <!--MVP Waitor-->
-                        <table width="160" border="0" cellspacing="0" cellpadding="2">
-                          <tr>
-                            <td align="center" valign="top" style="height:10px;"></td>
-                          </tr>
-                          <tr>
-                            <td align="center" valign="top"><span
-                                style="font-size:17px; font-family: 'Times New Roman', Times, serif; color: #000; font-weight: bold;">MVP
-                                Waiter</span></td>
-                          </tr>
-                          <tr>
-                            <td align="center" valign="top"><img src="images/featured_bar2.png" width="151" height="16"
-                                alt="" /></td>
-                          </tr>
-                          <tr>
-                            <td align="center" valign="top"
-                              style="font-size:15px; font-family: 'Times New Roman', Times, serif; color: #000; line-height: 21px;">
-                              Sed et mauris in ligula feugiat hendrerit. Cras neque purus mollis non, adipiscing ac,
-                              pretium eget, turpis. Cum sociis natoque penatibus et. </td>
-                          </tr>
-                          <tr>
-                            <td align="center" valign="top" style="height:10px;"></td>
-                          </tr>
-                        </table>
                       </td>
                     </tr>
                   </table>
@@ -312,6 +322,64 @@
                 <td><img src="images/line2.png" width="572" height="5" alt="" /></td>
               </tr>
             </table>
+            <!-- Container with Food Fact & Wine Wisdom-->
+            <div class="container1">
+              <div style="padding: 0px 5px;">
+                <h4>-Food Fact-</h4>
+                <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend
+                  pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer
+                  tincidunt diam. Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing
+                  ac, pretium eget, turpis.</p>
+              </div>
+              <div style="padding: 0px 5px;">
+                <h4>-Wine Wisdom-</h4>
+                <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend
+                  pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer
+                  tincidunt diam. Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing
+                  ac, pretium eget, turpis.</p>
+              </div>
+            </div>
+            <!-- Manager Memo -->
+            <div style="text-align: center; width: 572px;">
+              <h3>~ Manager Memo ~</h3>
+              <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend pede.
+                Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer tincidunt diam.
+                Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing ac, pretium eget,
+                turpis.</p>
+            </div>
+            <!-- Container 2 with Pro Tip & Service Goal -->
+            <div class="container2">
+              <div style="padding: 0px 5px;">
+                <h4>-Pro Tip-</h4>
+                <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend
+                  pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer
+                  tincidunt diam. Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing
+                  ac, pretium eget, turpis.</p>
+              </div>
+              <div class="circle"></div>
+              <div style="padding: 0px 5px;">
+                <h4>-Service Goal-</h4>
+                <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend
+                  pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer
+                  tincidunt diam. Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing
+                  ac, pretium eget, turpis.</p>
+              </div>
+            </div>
+            <h4 style="margin-bottom: 2px;">- Hospitality Quote -</h4>
+            <div class="outer">
+              <div class="inner">
+                <i class="top left"></i>
+                <i class="top right"></i>
+                <div class="content">
+                  <p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend
+                    pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec consectetuer
+                    tincidunt diam. Sed et mauris in ligula feugiat hendrerit. Cras neque purus, mollis non, adipiscing
+                    ac, pretium eget, turpis.</p>
+                </div>
+                <i class="bottom right"></i>
+                <i class="bottom left"></i>
+              </div>
+            </div>
 
             <!-- Footer-->
             <table width="572" border="0" cellspacing="0" cellpadding="0">
